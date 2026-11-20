@@ -1,0 +1,2 @@
+interface AnnaApi { storage:{get(a:{key:string;scope?:"app"}):Promise<{value:any;exists:boolean;etag?:string}>;set(a:{key:string;value:any;scope?:"app";if_match?:string}):Promise<any>;delete(a:{key:string;scope?:"app"}):Promise<any>}; llm:{complete(a:{messages:Array<{role:"system"|"user"|"assistant";content:string}>;maxTokens?:number;temperature?:number;thinking?:boolean}):Promise<{content:{type:"text";text:string}}>}; window?:{ready?():Promise<void>;set_title?(a:{title:string}):Promise<void>}; }
+interface Window {anna?:AnnaApi}

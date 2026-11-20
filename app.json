@@ -1,0 +1,13 @@
+{
+  "slug": "nexora-anna-edition",
+  "name": "Nexora Memory — Anna Edition",
+  "version": "0.1.0",
+  "tagline": "Human-confirmed memory with minimum disclosure for Anna AI OS.",
+  "description": "Submit selected conversation text, review model-generated candidate memories, and decide what Anna may read. Confirmed memories persist in Anna Persistent Storage; raw conversations are not saved by default.",
+  "category": "productivity",
+  "homepage_url": "https://github.com/XY-code1/nexora-anna-edition",
+  "support_url": "https://github.com/XY-code1/nexora-anna-edition/issues",
+  "privacy_url": "https://github.com/XY-code1/nexora-anna-edition/blob/main/docs/PRIVACY.md",
+  "bundled_executas": {}
+}
+
